@@ -12,4 +12,6 @@ public interface CostumerEntityMapper {
     
     CostumerEntity toCostumerEntity(Costumer costumer);
 
+    Costumer toCostumer(CostumerEntity costumerEntity);
+
 }
